@@ -11,3 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.myDemo{
+  background-image: url(./glassesImage/background.jpg);
+  background-repeat: no-repeat;
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+}
+
+.title{
+  background-color: rgba(0, 0, 0, 0.548);
+  color: white;
+  position: fixed;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.myModal{
+  padding-top: 5rem !important;
+}
+
+.overLay{
+  width: 50%;
+  margin: o auto;
+}
+
+.card{
+  margin-left: 11rem;
+}
+
+img{
+  /* border: 1px solid gray; */
+}
+
+.mySP{
+  background: white;
+  border: 1px gray solid;
+}
+
+.mySP img{
+  margin: 15px 0;
+}
+
+.mySP .row{
+  margin-bottom: 2rem;
+}
+
+.overLay{
+  width: 60%;
+  position: absolute;
+  top: 0;
+  opacity: 0.7;
+  width: 45%;
+  left: 225px;
+  top: 80px;
+}
+.md{
+  position: relative;
+  height: 300px;
+  width: 250px;
+}
